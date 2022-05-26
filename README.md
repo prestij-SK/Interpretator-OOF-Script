@@ -97,7 +97,7 @@ ELSE
   
   
   
-You can use PERIOD opretaion which is while() in C++. The rules are totaly same as the CON, except you must use @ @ brackets instead Example:
+You can use PERIOD opretaion which is while() in C++. The rules are totaly same as the CON, except you must use '@' brackets instead Example:
 PERIOD (a>b)
 @
   // Code
