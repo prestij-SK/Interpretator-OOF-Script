@@ -2,7 +2,7 @@ OOF-Script
 Interpretator
 
 __INTRODUCTION__
-----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 OOF-Script is an interpretator which has some several commands needed to do some programming task. It's not a perfect interpretator yet, it has some borders and rules that can't be passed or be ignored as we would like to do in other advanced languages. There are functions which needs a little update or adjustment too, so the program will run or do additional tasks without any issues. OOF-Script provides function prototypes, where functions descriptions are represented too.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
