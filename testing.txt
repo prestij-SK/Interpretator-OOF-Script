@@ -1,0 +1,27 @@
+{
+    real a = 8.5;
+    dig abcwe = 23;
+    CON (abcwe>11)
+    [
+        SHOW [<TRUE>];
+    ]
+    real b;
+    real c;
+    PERIOD (a>1)
+    @
+        b = a/3;
+        CON (b>2)
+        [
+            SHOW [<Your_b_in_true>+b];
+            c = a*b+1.2;
+        ]
+        ELSE
+        [
+            SHOW [<Your_b_in_false>+b+<aloi>];
+            c = a*b;
+        ]
+        a = a - 1;
+        SHOW [<Your_a>+a+32];
+    @
+    SHOW [c+32+4];
+}
