@@ -1,2 +1,2 @@
-# Interpretator-OOF-Script
-Interpretator for OOF Script
+OOF-Script
+Interpretator
