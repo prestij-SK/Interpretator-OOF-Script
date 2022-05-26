@@ -4,19 +4,19 @@ Interpretator
 __INTRODUCTION__
 -----------------------------------------------------------------------------------------------------------------------------
 OOF-Script is an interpretator which has some several commands needed to do some programming task. It's not a perfect interpretator yet, it has some borders and rules that can't be passed or be ignored as we would like to do in other advanced languages. There are functions which needs a little update or adjustment too, so the program will run or do additional tasks without any issues. OOF-Script provides function prototypes, where functions descriptions are represented too.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 __KEY WORDS__
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 Data types like: dig (int), real (float), struna (string) and oz (bool).
 
-Operation/Commands: + - * /, CON/ELSE (if/else), SHOW (cout), PERIOD (while).
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Operation/Commands: bool operations: || && < <= > >= != ==, arithmetic operations: + - * /, other operations: CON/ELSE (if/else), SHOW (cout), PERIOD (while).
+-----------------------------------------------------------------------------------------------------------------------------
 
 
-<h4>Using Rules</h4>
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+USING RULES
+-----------------------------------------------------------------------------------------------------------------------------
 You must open txt file and put it in the same folder where the main.cpp with hpp files is placed. The name of txt file must be "testing.txt" or you can change it by going into the main.cpp code. Aftering writing code (Which must follow rules of OOF Script), run main.cpp and see results in (THIS_IS_YOUR_COUT >>>> <<<<) field.
  
  
@@ -48,15 +48,18 @@ You can do assigning operation and use chain operations too, but opening ( and )
   b = a/10 + 23*0.4;
 }
 
+
 Strings are supported too.
 {
   struna d = "hell";
   d = d + "o";
 }
 
+
 By the way, there is no ' ' space symbol in Interpretator, so for space symbol use '_' this, to avoid errors.
 
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 
 You can use SHOW operation which is cout << in C++. You must have space between brackets and write expression or text (in <> brackets) in [] scopes Example:
@@ -71,6 +74,8 @@ Chain expressions are supported too Example:
   SHOW [<This_is_your_number> a];
 }
   
+  
+-----------------------------------------------------------------------------------------------------------------------------
   
   
 You can use CON operation which is condition if in C++. You can't have chain operation in opening and closing () scopes, only one expression with boolean operations.
@@ -95,13 +100,17 @@ ELSE
   // Code
 ]
   
-  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
   
 You can use PERIOD opretaion which is while() in C++. The rules are totaly same as the CON, except you must use '@' brackets instead Example:
 PERIOD (a>b)
 @
   // Code
 @
+
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
-  <h4>Hope you will appreciate the program, it's not the best and not usable I know, but at least you can do something in it :)</h4>
+  Hope you will appreciate the program, it's not the best and not usable I know, but at least you can do something in it :)
