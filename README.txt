@@ -1,13 +1,13 @@
 OOF-Script
 Interpretator
 
-<h4>Introduction</h4>
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+__INTRODUCTION__
+-----------------------------------------------------------------------------------------------------------------------------
 OOF-Script is an interpretator which has some several commands needed to do some programming task. It's not a perfect interpretator yet, it has some borders and rules that can't be passed or be ignored as we would like to do in other advanced languages. There are functions which needs a little update or adjustment too, so the program will run or do additional tasks without any issues. OOF-Script provides function prototypes, where functions descriptions are represented too.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<h4>Key Words</h4>
+__KEY WORDS__
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Data types like: dig (int), real (float), struna (string) and oz (bool).
 
